@@ -9,7 +9,7 @@ $ARGUMENTS
 
 Steps:
 1. Apply copilot-common privacy rules.
-2. Identify the audience (default residents). Use the "What each audience asks first" column in `references/audience-matrix.md` to generate the questions, and `references/brand-voice-guide.md` for tone and terms. Answers come only from the input; if the input does not answer a question the audience will certainly ask, list it under NEEDS AN ANSWER rather than inventing one.
+2. Identify the audience (default residents). Use the "What each audience asks first" column in `${CLAUDE_PLUGIN_ROOT}/skills/marketing-copilot/references/audience-matrix.md` to generate the questions, and `${CLAUDE_PLUGIN_ROOT}/skills/marketing-copilot/references/brand-voice-guide.md` for tone and terms. Answers come only from the input; if the input does not answer a question the audience will certainly ask, list it under NEEDS AN ANSWER rather than inventing one.
 3. Produce exactly this template:
 
 ```

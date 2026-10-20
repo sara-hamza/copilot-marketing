@@ -9,7 +9,7 @@ $ARGUMENTS
 
 Steps:
 1. Apply copilot-common privacy rules. For PDFs apply document-reader (cite page and paragraph); for screenshots apply screenshot-reader (cite the region).
-2. Walk `references/proofing-checklist.md` in order: spelling and grammar (Australian English), punctuation and typography (including em-dashes to replace), numbers, dates and units, consistency (names, capitalisation, terms), brand terms and voice from `references/brand-voice-guide.md`, claims needing substantiation, links and contact details present and plausible, accessibility (alt text noted, reading level), legal and compliance flags.
+2. Walk `${CLAUDE_PLUGIN_ROOT}/skills/marketing-copilot/references/proofing-checklist.md` in order: spelling and grammar (Australian English), punctuation and typography (including em-dashes to replace), numbers, dates and units, consistency (names, capitalisation, terms), brand terms and voice from `${CLAUDE_PLUGIN_ROOT}/skills/marketing-copilot/references/brand-voice-guide.md`, claims needing substantiation, links and contact details present and plausible, accessibility (alt text noted, reading level), legal and compliance flags.
 3. Produce exactly this template:
 
 ```

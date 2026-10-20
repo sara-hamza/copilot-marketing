@@ -9,7 +9,7 @@ $ARGUMENTS
 
 Steps:
 1. Apply copilot-common privacy rules. If the draft is a PDF or screenshot, apply document-reader or screenshot-reader first.
-2. Identify the audience from an `audience:` token or the text (default: residents). Apply `references/brand-voice-guide.md` (tone, terms to use and avoid, claims needing substantiation) and the writing-helper house style (Australian English, short sentences, active voice, no em-dashes).
+2. Identify the audience from an `audience:` token or the text (default: residents). Apply `${CLAUDE_PLUGIN_ROOT}/skills/marketing-copilot/references/brand-voice-guide.md` (tone, terms to use and avoid, claims needing substantiation) and the writing-helper house style (Australian English, short sentences, active voice, no em-dashes).
 3. Keep every fact, figure, name and date exactly as in the draft. Do not add claims. If a claim in the draft needs substantiation per the brand guide, keep it but flag it.
 4. Produce exactly this template:
 

@@ -9,7 +9,7 @@ $ARGUMENTS
 
 Steps:
 1. Apply copilot-common privacy rules.
-2. Identify the audience and the single message the headline must carry. Use the angle table in `references/audience-matrix.md` (section "Headline angles by audience") and the claims rules in `references/brand-voice-guide.md`. No headline may make a claim the input does not support.
+2. Identify the audience and the single message the headline must carry. Use the angle table in `${CLAUDE_PLUGIN_ROOT}/skills/marketing-copilot/references/audience-matrix.md` (section "Headline angles by audience") and the claims rules in `${CLAUDE_PLUGIN_ROOT}/skills/marketing-copilot/references/brand-voice-guide.md`. No headline may make a claim the input does not support.
 3. Produce exactly this template:
 
 ```

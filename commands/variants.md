@@ -10,7 +10,7 @@ $ARGUMENTS
 Steps:
 1. Apply copilot-common privacy rules.
 2. Extract the FACT LIST first: every fact, figure, date, name and commitment in the input. The fact list is the contract; every version must contain the same facts and no new ones.
-3. Use `references/audience-matrix.md` for what each audience cares about, the vocabulary they use, what to lead with and what to leave out, and `references/brand-voice-guide.md` for tone. Follow writing-helper rules for multiple versions (clear VERSION headers, identical facts).
+3. Use `${CLAUDE_PLUGIN_ROOT}/skills/marketing-copilot/references/audience-matrix.md` for what each audience cares about, the vocabulary they use, what to lead with and what to leave out, and `${CLAUDE_PLUGIN_ROOT}/skills/marketing-copilot/references/brand-voice-guide.md` for tone. Follow writing-helper rules for multiple versions (clear VERSION headers, identical facts).
 4. Default audiences: residents, developers, RSPs, internal. Produce exactly this template:
 
 ```

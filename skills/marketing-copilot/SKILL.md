@@ -1,7 +1,7 @@
 ---
 name: marketing-copilot
 description: This skill should be used when a marketing or communications staff member pastes a draft, campaign brief, announcement, event notes, web or social copy or a brochure PDF and asks to "polish this", "make versions for residents and developers", "give me headlines", "proof this" or "write the FAQs". Keeps facts identical across versions and flags unsubstantiated claims. Local only; no CMS.
-version: 1.0.0
+version: 1.1.0
 ---
 
 # Marketing Copilot
